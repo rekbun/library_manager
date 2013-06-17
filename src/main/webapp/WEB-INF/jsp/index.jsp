@@ -1,12 +1,12 @@
-<%@include file="taglib.jsp">
+<%@include file="taglib.jsp"%>
 <html>
     <%@include file="header.jsp"%>
     <body>
         <div class ="container">
         <form class="form-signin" action="/login" method="POST">
                 <h2 class="form-signin-heading">Please sign in </h2>
-                <input class="input-block-level" type="text" placeholder="email"/>
-                <input class="input-block-level" type="password" placeholder="password"/>
+                <input class="input-block-level" type="email" name="email" placeholder="email"/>
+                <input class="input-block-level" type="password" name="password" placeholder="password"/>
                 <label class="checkbox">
                     <input type="checkbox" value="remember me"/>Remember me
                 </label>
